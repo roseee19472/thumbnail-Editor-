@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thumbnail Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎨 Thumbnail Editor</h1>
+  <input type="file" id="upload" />
+  <canvas id="canvas"></canvas>
+  <button onclick="download()">Download</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
